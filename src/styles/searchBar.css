@@ -1,0 +1,20 @@
+.search__bar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search__bar-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.search__bar-btn {
+  padding: 0.3rem 1rem 0.3rem 1rem;
+  color: white;
+  border-radius: 1rem;
+  border: none;
+  background-color: rgb(133, 39, 39);
+}

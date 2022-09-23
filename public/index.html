@@ -5,18 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dom Search Bar</title>
-    <link href="../src/styles/">
+    <link href="../src/styles/searchBar.css" rel="stylesheet">
 </head>
 <body>
     <main class="root">
         <div class="search__bar-container">
             <form class="search__bar-form">
+                <label for="searchbar"></label>
+                <input
+                class="search__bar-input"
+                name="searchbar"
+                type="text"
+                placeholder="Search..."
+                />
+                <div class="search__bar-btn-container">
+                        <button class="search__bar-btn" type="submit">
+                            Search
+                        </button>
+                </div>
             </form>
-        </div>
-        <div class="search__bar-btn-container">
-
         </div>
     </main>
 </body>
-<script src="../index.js"></script>
+<script type="module" src="../index.js"></script>
+<!-- <script type="module" src="../src/api/getAnime.js"></script> -->
+
 </html>
